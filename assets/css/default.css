@@ -1,4 +1,12 @@
+:root{
+    --mainColor:#eaeaea;
+    --secondaryColor:#fff;
 
+    --borderColor:#c1c1c1;
+
+    --mainText:black;
+    --secondaryText: #4b5156;
+}
 
 
 html, body{
@@ -8,9 +16,9 @@ html, body{
 
 
 h1, h2, h3, h4, h5, h6, strong{
-
+    color: var(--mainText)
 }
 
 p, li, span, label, input, text area{
-    
+    color: var(--mainText);
 }
