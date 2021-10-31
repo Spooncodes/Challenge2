@@ -16,13 +16,30 @@ html, body{
 
 
 h1, h2, h3, h4, h5, h6, strong{
-    color: var(--mainText)
+    color: var(--mainText);
+    font-family: 'Roboto', sans-serif;
 }
 
 p, li, span, label, input, text area{
     color: var(--mainText);
+    font-family: 'Rubik', sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color:#17a2b8
+}
+
+ul{
+    list-style: none;
+}
+
+h1 { font-size: 56px;}
+h2 { font-size: 36px;}
+h3 { font-size: 28px;}
+h4 { font-size: 24px;}
+h5 { font-size: 20px;}
+h6 { font-size: 16px;}
 
 .s1{
     background-color: var(--mainColor);
@@ -41,3 +58,17 @@ p, li, span, label, input, text area{
     margin: 0 auto;
 }
 
+.greeting-wrapper{
+    display: grid;
+    text-align: center;
+    align-content: center;
+    border:2px dashed lightcoral;
+    min-height: 10em;
+}
+
+
+@media screen and (max-width: 1200px){
+    .main container{
+        width: 95%;
+    }
+}
