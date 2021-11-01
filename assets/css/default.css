@@ -71,6 +71,8 @@ h6 { font-size: 16px;}
     min-height: 10em;
 }
 
+/* Intro styling*/
+
 .intro-wrapper{
     background-color: var(--secondaryColor);
     border:1px solid var(--borderColor);
@@ -87,6 +89,8 @@ h6 { font-size: 16px;}
         'left-column right-column'
     ;
 }
+
+/* Navigation styles*/
 
 .nav-wrapper{
     border-radius: 5px 5px 0 0;
@@ -112,6 +116,8 @@ h6 { font-size: 16px;}
     margin-right: 5px;
     margin-left: 5px;
 }
+
+/* Left column styles*/
 
 .left-column{
     grid-area: left-column;
@@ -170,6 +176,8 @@ h6 { font-size: 16px;}
     background-color: #7e4c74;
 }
 
+/*Right Column Styles*/
+
 .right-column{
 	grid-area: right-column;
 	display: grid;
@@ -226,6 +234,8 @@ h6 { font-size: 16px;}
 	left: -5px
 }
 
+/* Skills/Contact Styles */
+
 .about-wrapper{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -246,6 +256,8 @@ h6 { font-size: 16px;}
 	align-content: center;
 	text-align: center;
 }
+
+/* Project Styles*/
 
 .post-wrapper{
 	display: grid;
